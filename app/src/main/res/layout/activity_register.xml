@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77a5c6"
+    tools:context="com.example.hp.testinglogin.Register">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/innerlayout">
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/emailreg"
+    android:inputType="text"
+    android:textColorHint="#ffffff"
+    android:hint="@string/email_id"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:drawableLeft="@drawable/ic_msg"
+    android:layout_marginTop="80dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passworreg"
+        android:inputType="text"
+        android:textColorHint="#ffffff"
+        android:layout_below="@+id/emailreg"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rpwdreg"
+        android:inputType="text"
+        android:textColorHint="#ffffff"
+        android:hint="Enter re password"
+        android:layout_below="@+id/passworreg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fnamereg"
+        android:inputType="text"
+        android:textColorHint="#ffffff"
+        android:hint="First Name"
+        android:layout_below="@+id/rpwdreg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_call"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Lnamereg"
+        android:inputType="text"
+        android:textColorHint="#ffffff"
+        android:hint="Last name"
+        android:layout_below="@+id/fnamereg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_call"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pnumreg"
+        android:inputType="text"
+        android:textColorHint="#ffffff"
+        android:hint="Phone number"
+        android:layout_below="@+id/Lnamereg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/signup"
+        android:layout_below="@+id/pnumreg"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Sign up"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:textColor="#79010315"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register"
+        android:text="Register"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/fb"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Sign up with Facebook"
+        android:background="#fb020016"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/google"
+        android:layout_below="@+id/fb"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Sign up with Google plus"
+        android:background="#dc0917"
+        android:textSize="10dp"
+        android:textColor="#ffffff"
+
+
+        />
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
